@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:builder}",
+            "name": "Debug builder",
+            "program": "${workspaceFolder:builder}/.build/debug/builder",
+            "preLaunchTask": "swift: Build Debug builder"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:builder}",
+            "name": "Release builder",
+            "program": "${workspaceFolder:builder}/.build/release/builder",
+            "preLaunchTask": "swift: Build Release builder"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:builder}",
+            "name": "Debug Builder",
+            "program": "${workspaceFolder:builder}/.build/debug/Builder",
+            "preLaunchTask": "swift: Build Debug Builder"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:builder}",
+            "name": "Release Builder",
+            "program": "${workspaceFolder:builder}/.build/release/Builder",
+            "preLaunchTask": "swift: Build Release Builder"
+        }
+    ]
+}

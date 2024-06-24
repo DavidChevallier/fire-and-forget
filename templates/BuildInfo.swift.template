@@ -1,0 +1,11 @@
+import Foundation
+
+public struct BuildInfo {
+    public static let version: String = "{{VERSION}}"
+    public static let commitSlug: String = "{{COMMITSUG}}"
+    public static let buildDate: String = "{{BUILDDATE}}"
+    public static let codesigningIdentity: String = "{{CODESIGNINGIDENTITY}}"
+    public static let codesigningInfo: String = """
+{{CODESIGNINGINFO}}
+"""
+}
